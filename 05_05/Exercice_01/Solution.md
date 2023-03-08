@@ -6,7 +6,7 @@ FROM alpine:3.17
 
 COPY hello.c /
 
-### Installer le compilateur gcc et la librairie libc-dev, puis compiler et générer l''exécutable hello
+### Installer le compilateur gcc et la librairie libc-dev, puis compiler et générer l'exécutable hello
 
 RUN apk add gcc libc-dev \
  && gcc -o hello hello.c

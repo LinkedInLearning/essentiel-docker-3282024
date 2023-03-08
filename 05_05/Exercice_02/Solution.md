@@ -1,20 +1,15 @@
-### Créer une nouvelle image ?|  partir de l'image de base alpine:3.17
+### Reprendre le Dockerfile de l'exercice 01 et ajouter un nom de build sur le premier FROM avec l'argument AS
 
-FROM alpine:3.17
+FROM alpine:3.17 AS first
 
-### Copier le fichier source hello.c
+### Ajouter à la fin du Dockerfile un nouveau FROM pour repartir d'une image de base alpine:3.17
 
-COPY hello.c /
+FROM alpine:3.17 AS second
 
-### Installer le compilateur gcc et la librairie libc-dev, puis compiler et générer l''exécutable hello
+### Copier le fichier hello à partir du premier build 
 
-RUN apk add gcc libc-dev \
- && gcc -o hello hello.c
+COPY --from=first hello /
 
-# Modifier la variable CMD pour exécuter hello
+### Construire l'image Docker
 
-CMD ["/hello"]
-
-# Construire l'image Docker
-
-$ docker build -t hello:1.0 .
+$ docker build -t hello:1.1 .
