@@ -4,7 +4,7 @@ FROM centos:7
 
 # Installer le compilateur gcc
 
-RUN yum install -i gcc
+RUN yum install -y gcc
 
 # Copier le fichier source myhello.c
 
