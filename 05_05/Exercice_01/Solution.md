@@ -1,23 +1,20 @@
-# Créer une nouvelle image à partir de Centos:7
+### Créer une nouvelle image ?|  partir de l'image de base alpine:3.17
 
-FROM centos:7
+FROM alpine:3.17
 
-# Installer le compilateur gcc
+### Copier le fichier source hello.c
 
-RUN yum install -i gcc
+COPY hello.c /
 
-# Copier le fichier source myhello.c
+### Installer le compilateur gcc et la librairie libc-dev, puis compiler et générer l''exécutable hello
 
-COPY myhello.c /
+RUN apk add gcc libc-dev \
+ && gcc -o hello hello.c
 
-# Compiler et générer un binaire myhello
+# Modifier la variable CMD pour exécuter hello
 
-RUN gcc -o myhello myhello.c
-
-# Modifier la variable CMD pour exécuter myhello
-
-CMD ["/myhello"]
+CMD ["/hello"]
 
 # Construire l'image Docker
 
-$ docker build -t myhello:1.0 .
+$ docker build -t hello:1.0 .
