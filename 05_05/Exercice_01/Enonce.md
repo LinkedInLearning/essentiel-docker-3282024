@@ -1,10 +1,10 @@
-### Créer une nouvelle image ?|  partir de l'image e base alpine:3.17
+### Créer une nouvelle image à partir de l'image de base alpine:3.17
 
 ### Copier le fichier source hello.c
 
-### Installer le compilateur gcc et la librairie libc-dev, puis compiler et générel'exécutble hello
+### Installer le compilateur gcc et la librairie libc-dev, puis compiler et générer l'exécutable hello
 
-### Modifier la variable CMD pour exécuterhello
+### Modifier la variable CMD pour exécuter hello
 
 ### Construire l'image Docker
 

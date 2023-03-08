@@ -1,4 +1,4 @@
-### Créer une nouvelle image ?|  partir de l'image de base alpine:3.17
+### Créer une nouvelle image à partir de l'image de base alpine:3.17
 
 FROM alpine:3.17
 
