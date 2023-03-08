@@ -1,19 +1,5 @@
-# Créer une nouvelle image à partir de Centos:7
-
-FROM centos:7
-
-# Installer le compilateur gcc
-
-RUN yum install -y gcc
-
-# Copier le fichier source myhello.c
-
-COPY myhello.c /
-
-# Compiler et générer un binaire myhello
-
-RUN gcc -o myhello myhello.c
-
-# Modifier la variable CMD pour exécuter myhello
-
-CMD ["/myhello"]
+FROM alpine:3.17
+COPY hello.c /
+RUN apk add gcc libc-dev \
+ && gcc -o hello hello.c
+CMD ["/hello"]
