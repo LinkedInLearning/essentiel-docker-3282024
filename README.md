@@ -12,8 +12,6 @@ DESCRIPTION DE LA FORMATION
    - Soit de créer une machine virtuelle Centos 7 sur votre hyperviseur local
    - Soit utiliser Vagrant pour créer une machine virtuelle 
 2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
-3. [Instructions spécifiques au cours] 
-
 
 ### Formateur
 
