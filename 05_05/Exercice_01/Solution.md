@@ -15,6 +15,6 @@ RUN apk add gcc libc-dev \
 
 CMD ["/hello"]
 
-### Construire l'image Docker
+### Construire l'image Docker A
 
 $ docker build -t hello:1.0 .
