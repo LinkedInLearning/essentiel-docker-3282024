@@ -11,10 +11,10 @@ COPY hello.c /
 RUN apk add gcc libc-dev \
  && gcc -o hello hello.c
 
-# Modifier la variable CMD pour exécuter hello
+### Modifier la variable CMD pour exécuter hello
 
 CMD ["/hello"]
 
-# Construire l'image Docker
+### Construire l'image Docker
 
 $ docker build -t hello:1.0 .
