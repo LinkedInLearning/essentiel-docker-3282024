@@ -20,6 +20,7 @@ $ docker history centos:wget
 
 $ docker run -it centos:wget
 ```
+[root@07103ae56774 /]# wget
 wget: missing URL
 Usage: wget [OPTION]... [URL]...
 ``` 
