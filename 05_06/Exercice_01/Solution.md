@@ -29,6 +29,9 @@ $ docker build -t alpine:curl .
 ### Tester la nouvelle image **alpine:curl**
 
 $ docker run -it alpine:curl
+
 / # curl
+
 curl: try 'curl --help' or 'curl --manual' for more information
+
 / # 
