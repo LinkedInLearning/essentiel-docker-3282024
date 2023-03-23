@@ -11,3 +11,5 @@
 ### Ajouter l'instruction CMD avec la commande **/bin/sh**
 
 ### Construire une image **alpine:curl** à partir de ce Dockerfile
+
+### Tester la nouvelle image **alpine:curl** 

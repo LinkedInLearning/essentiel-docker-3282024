@@ -1,20 +1,34 @@
-### Créer une nouvelle image à partir de l'image de base alpine:3.17
+### Créer un conteneur à partir de l'image de base alpine:3.17
 
-FROM alpine:3.17
+$ docker run -it --name=alpine_curl alpine:3.17
 
-### Copier le fichier source hello.c
+### Ajouter le package curl
 
-COPY hello.c /
+/ # apk add curl
 
-### Installer le compilateur gcc et la librairie libc-dev, puis compiler et générer l'exécutable hello
+### Exporter le conteneur dans une archive alpine-curl.tar
 
-RUN apk add gcc libc-dev \
- && gcc -o hello hello.c
+$ docker export alpine_curl -o alpine_curl.tar
 
-### Modifier la variable CMD pour exécuter hello
+### Créer un Dockerfile avec une image de base FROM scratch
 
-CMD ["/hello"]
+FROM scratch
 
-### Construire l'image Docker
+### Ajouter l'archive alpine-curl.tar avec la commande ADD
 
-$ docker build -t hello:1.0 .
+ADD alpine_curl.tar /
+
+### Ajouter l'instruction CMD avec la commande **/bin/sh**
+
+CMD ["/bin/sh"]
+
+### Construire une image **alpine:curl** à partir de ce Dockerfile
+
+$ docker build -t alpine:curl .
+
+### Tester la nouvelle image **alpine:curl**
+
+$ docker run -it alpine:curl
+/ # curl
+curl: try 'curl --help' or 'curl --manual' for more information
+/ # 
