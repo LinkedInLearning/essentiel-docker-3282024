@@ -20,8 +20,7 @@ $ docker history centos:wget
 
 $ docker run -it centos:wget
 
-```bloc de code``` 
-
+```
 wget: missing URL
-
 Usage: wget [OPTION]... [URL]...
+``` 
