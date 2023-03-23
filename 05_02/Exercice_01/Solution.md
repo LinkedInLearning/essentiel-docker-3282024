@@ -19,7 +19,6 @@ $ docker history centos:wget
 ### Tester la nouvelle image **centos:wget** 
 
 $ docker run -it centos:wget
-
 ```
 wget: missing URL
 Usage: wget [OPTION]... [URL]...
