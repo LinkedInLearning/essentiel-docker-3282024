@@ -23,7 +23,7 @@ $ docker attach host1
 
 $ docker attach host2
 ```
-[root@07103ae56774 /]# echo host2 >> /datas/hosts
+[root@02e7a9c7aecf /]# echo host2 >> /datas/hosts
 ```
 
 #### Faire un CTRL+P+Q pour se détacher 
@@ -39,7 +39,7 @@ host2
 
 $ docker attach host2
 ```
-[root@07103ae56774 /]# cat /datas/hosts
+[root@02e7a9c7aecf /]# cat /datas/hosts
 host1
 host2
 ```
