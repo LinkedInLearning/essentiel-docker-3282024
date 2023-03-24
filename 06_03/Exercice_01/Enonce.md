@@ -1,12 +1,15 @@
-## Créer une image à partir d'un conteneur
+## Partager les volumes
 
-### Créer un conteneur à partir de l'image de base centos:7
+### Créer un volume nommé "share"
 
-### Ajouter le package wget
+### Créer un conteneur en mode "dettach" basé sur "centos:7" nommé "host1" et monter le volume "share" sur "/datas"
 
-### Utiliser la commande commit et créer une image centos:wget
+### Créer un conteneur en mode "dettach" basé sur "centos:7" nommé "host2" et monter le volume "share" sur "/datas"
 
-### Afficher les couches de cette nouvelle image avec la commande history
+### S'attacher au conteneur "host1" et créer un fichier "/datas/hosts" qui contient le nom du conteneur
+#### Faire un CTRL+P+Q pour se détacher 
 
-### Tester la nouvelle image centos:wget
+### S'attacher au conteneur "host2" et ajouter dans le fichier "/datas/hosts" le nom du conteneur
+#### Faire un CTRL+P+Q pour se détacher 
 
+### Vérifier dans les deux conteneurs le contenu du fichier "/datas/hosts"
