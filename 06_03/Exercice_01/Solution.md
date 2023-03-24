@@ -6,11 +6,11 @@ $ docker volume create share
 
 ### Créer un conteneur en mode "dettach" basé sur "centos:7" nommé "host1" et monter le volume "share" sur "/datas"
 
-$ docker run -it --name=host1 -v share:/datas centos:7
+$ docker run -it -d --name=host1 -v share:/datas centos:7
 
 ### Créer un conteneur en mode "dettach" basé sur "centos:7" nommé "host2" et monter le volume "share" sur "/datas"
 
-$ docker run -it --name=host1 -v share:/datas centos:7
+$ docker run -it -d --name=host1 -v share:/datas centos:7
 
 ### S'attacher au conteneur "host1" et créer un fichier "/datas/hosts" qui contient le nom du conteneur
 
