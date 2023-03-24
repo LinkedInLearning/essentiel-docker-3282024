@@ -18,15 +18,15 @@ FROM scratch
 
 ADD alpine_curl.tar /
 
-### Ajouter l'instruction CMD avec la commande **/bin/sh**
+### Ajouter l'instruction CMD avec la commande /bin/sh
 
 CMD ["/bin/sh"]
 
-### Construire une image **alpine:curl** à partir de ce Dockerfile
+### Construire une image alpine:curl à partir de ce Dockerfile
 
 $ docker build -t alpine:curl .
 
-### Tester la nouvelle image **alpine:curl**
+### Tester la nouvelle image alpine:curl
 
 $ docker run -it alpine:curl
 ```

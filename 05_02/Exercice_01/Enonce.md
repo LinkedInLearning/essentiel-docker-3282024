@@ -4,9 +4,9 @@
 
 ### Ajouter le package wget
 
-### Utiliser la commande **commit** et créer une image **centos:wget**
+### Utiliser la commande commit et créer une image centos:wget
 
-### Afficher les couches de cette nouvelle image avec la commande **history**
+### Afficher les couches de cette nouvelle image avec la commande history
 
-### Tester la nouvelle image **centos:wget** 
+### Tester la nouvelle image centos:wget
 

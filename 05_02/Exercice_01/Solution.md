@@ -8,15 +8,15 @@ $ docker run -it --name centos_wget centos:7
 
 [root@414174c5fdae /]# yum install wget -y
 
-### Utiliser la commande **commit** et créer une image **centos:wget**
+### Utiliser la commande commit et créer une image centos:wget
 
 $ docker commit centos_wget centos:wget
 
-### Afficher les couches de cette nouvelle image avec la commande **history**
+### Afficher les couches de cette nouvelle image avec la commande history
 
 $ docker history centos:wget
 
-### Tester la nouvelle image **centos:wget** 
+### Tester la nouvelle image centos:wget
 
 $ docker run -it centos:wget
 ```

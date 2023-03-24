@@ -12,7 +12,7 @@ RUN yum install wget -y
 
 $ docker build -t centos:wget .
 
-### Afficher les couches de cette nouvelle image avec la commande **history**
+### Afficher les couches de cette nouvelle image avec la commande history
 
 $ docker history centos7:wget
 
@@ -29,6 +29,6 @@ RUN yum install curl -y
 
 $ docker build -t centos:curl .
 
-### Afficher les couches de cette nouvelle image avec la commande **history**
+### Afficher les couches de cette nouvelle image avec la commande history
 
 $ docker history centos7:curl
