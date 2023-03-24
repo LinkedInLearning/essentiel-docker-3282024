@@ -3,6 +3,7 @@
 ### Créer deux volumes nommés "datas" et "html"
 
 $ docker volume create datas
+
 $ docker volume create html
 
 ### Créer un conteneur basé sur "centos:7" nommé "app_volumes" et monter le volume "datas" sur "/datas" et le volume "html" sur "/html"
