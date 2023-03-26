@@ -1,7 +1,7 @@
 
 Créer une application de type "proxy" qui permet de retransmetre les requêtes "http" vers 2 serveurs web avec un loadbalancing de type "roundrobin"
 
-![](/img/haproxy.png =250x250)
+![](/img/haproxy.png)
 
 
 ### Créer un réseau "web" de type bridge
