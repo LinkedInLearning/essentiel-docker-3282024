@@ -4,6 +4,7 @@ Créer une application de type "proxy" qui permet de retransmetre les requêtes 
 
 ![image](https://https://github.com/LinkedInLearning/essentiel-docker-3282024/07_05/Exercice_01/img/haproxy.png)
 <img src="https://https://github.com/LinkedInLearning/essentiel-docker-3282024/blob/main/img/haproxy.png" width="128"/>
+![Alt text](/img/haproxy.png)
 
 ### Créer un réseau "web" de type bridge
 
