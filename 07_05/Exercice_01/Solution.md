@@ -3,7 +3,7 @@
 Créer une application de type "proxy" qui permet de retransmetre les requêtes "http" vers 2 serveurs web avec un loadbalancing de type "roundrobin"
 
 ![image](https://https://github.com/LinkedInLearning/essentiel-docker-3282024/07_05/Exercice_01/img/haproxy.png)
-<img src="../img/haproxy.png" width="128"/>
+<img src="https://https://github.com/LinkedInLearning/essentiel-docker-3282024/blob/main/img/haproxy.png" width="128"/>
 
 ### Créer un réseau "web" de type bridge
 
