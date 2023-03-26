@@ -1,8 +1,10 @@
-## Effectuer un mappage de port
 
 Créer une application de type "proxy" qui permet de retransmetre les requêtes "http" vers 2 serveurs web avec un loadbalancing de type "roundrobin"
 
-![Alt text](/img/haproxy.png)
+<div style="width: 60%; height: 60%">
+![](/img/haproxy.png)
+</div>
+
 
 ### Créer un réseau "web" de type bridge
 
