@@ -2,7 +2,7 @@
 
 Créer une application de type "proxy" qui permet de retransmetre les requêtes "http" vers 2 serveurs web avec un loadbalancing de type "roundrobin"
 
-<img src="https://github.com/kubernetes/kubernetes/raw/master/logo/logo.png" width="100">
+<img src="https://github.com/LinkedInLearning/essentiel-docker-3282024/blob/main/07_05/Exercice_01/Solution.md/img/haproxy.png">
 
 ### Créer un réseau "web" de type bridge
 
