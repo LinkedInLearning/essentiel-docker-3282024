@@ -1,5 +1,9 @@
 ## Effectuer un mappage de port
 
+Créer une application de type "proxy" qui permet de retransmetre les requêtes "http" vers 2 serveurs web avec un loadbalancing de type "roundrobin"
+
+<img src="https://github.com/kubernetes/kubernetes/raw/master/logo/logo.png" width="100">
+
 ### Créer un réseau "web" de type bridge
 
 $ docker network create web
@@ -40,9 +44,9 @@ $ docker run -d --network=web --name=web1 -v /home/centos/web1:/usr/share/nginx/
 
 $ docker run -d --network=web --name=web2 -v /home/centos/web2:/usr/share/nginx/html nginx:1.23-alpine
 
-### Créer un conteneur "haproxy" basé sur l'image "haproxy" avec un montage du fichier partagé "haproxy/haproxy.cfg" et un mapping de port "80:80"
+### Créer un conteneur "haproxy" basé sur l'image "haproxy:2.3-alpine" avec un montage du fichier partagé "haproxy/haproxy.cfg" et un mapping de port "80:80"
 
-$ docker run -d --network=web --name=haproxy -p 80:80 -v /home/centos/hapoxy/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg haproxy:2.7-alpine
+$ docker run -d --network=web --name=haproxy -p 80:80 -v /home/centos/hapoxy/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg haproxy:2.3-alpine
 
 ### Réaliser plusieurs "curl" sur le host
 
