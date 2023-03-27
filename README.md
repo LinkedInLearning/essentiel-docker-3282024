@@ -4,7 +4,7 @@ Ce dossier Repository est lié au cours `L'essentiel de Docker`. Le cours entier
 
 ![Nom final de la formation][lil-thumbnail-url] 
 
-DESCRIPTION DE LA FORMATION
+Dans cette formation qui s'adresse aux administrateurs et aux chefs de projet, vous découvrirez Docker, une plateforme de lancement d'applications en conteneurs logiciels. Avec Samir Lakhdari, vous verrez en quoi consiste Docker, puis comment l'installer et le configurer. Vous apprendrez à utiliser les images, à exécuter et à gérer des conteneurs de données, des volumes, et à mettre en œuvre les réseaux associés. Votre formateur dispensera, tout au long de ce cours, des conseils et des bonnes pratiques. Au terme de cette formation, vous aurez toutes les clés pour déployer vos applications avec Docker.
 
 ## Installation
 
