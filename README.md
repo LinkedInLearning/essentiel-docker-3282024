@@ -20,8 +20,8 @@ Dans cette formation qui s'adresse aux administrateurs et aux chefs de projet, v
  Retrouvez mes autres formations sur [LinkedIn Learning][lil-URL-trainer].
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com
-[lil-thumbnail-url]: https:
+[lil-course-url]: https://www.linkedin.com/learning/l-essentiel-de-docker
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQH4sy3jxZLQIg/learning-public-crop_675_1200/0/1681459196100?e=2147483647&v=beta&t=vLr8JC7JYO9i1VuW3llYazQBWLlNc7P2cjKM9IGNQNM
 [lil-URL-trainer]: https://www.linkedin.com/learning/instructors/samir-lakhdari
 
 [1]: # (End of FR-Instruction ###############################################################################################)
