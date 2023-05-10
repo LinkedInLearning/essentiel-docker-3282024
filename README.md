@@ -7,16 +7,11 @@ Ce dossier Repository est lié au cours `L'essentiel de Docker`. Le cours entier
 DESCRIPTION DE LA FORMATION
 
 ## Installation
-## Installation
 
 1. Pour utiliser ces fichiers d’exercice, vous avez besoin : 
    - Soit de créer une machine virtuelle Centos 7 sur votre hyperviseur local
    - Soit d'utiliser Vagrant pour créer une machine virtuelle 
 2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
-<<<<<<< HEAD
-3. [Instructions spécifiques au cours] 
-=======
->>>>>>> 82ec799 (first commit)
 
 ### Formateur
 
