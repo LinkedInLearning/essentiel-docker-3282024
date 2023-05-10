@@ -21,7 +21,7 @@ DESCRIPTION DE LA FORMATION
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com/learning/l-essentiel-de-docker/
-[lil-thumbnail-url]: 
+[lil-thumbnail-url]: https: 
 [lil-URL-trainer]: https://www.linkedin.com/learning/instructors/samir-lakhdari
 
 [1]: # (End of FR-Instruction ###############################################################################################)
