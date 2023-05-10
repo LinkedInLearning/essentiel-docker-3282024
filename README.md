@@ -1,6 +1,6 @@
-# L'essentiel de Docker
+# Docker Avancé
 
-Ce dossier Repository est lié au cours `L'essentiel de Docker`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
+Ce dossier Repository est lié au cours `Docker Avancé`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url]. 
 
 ![Nom final de la formation][lil-thumbnail-url] 
 
@@ -13,6 +13,10 @@ DESCRIPTION DE LA FORMATION
    - Soit de créer une machine virtuelle Centos 7 sur votre hyperviseur local
    - Soit d'utiliser Vagrant pour créer une machine virtuelle 
 2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
+<<<<<<< HEAD
+3. [Instructions spécifiques au cours] 
+=======
+>>>>>>> 82ec799 (first commit)
 
 ### Formateur
 
