@@ -1,6 +1,6 @@
-# Docker Avancé
+# L'essentiel de Docker
 
-Ce dossier Repository est lié au cours `Docker Avancé`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url]. 
+Ce dossier Repository est lié au cours `L'essentiel de Docker`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url]. 
 
 ![Nom final de la formation][lil-thumbnail-url] 
 
