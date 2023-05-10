@@ -20,7 +20,7 @@ DESCRIPTION DE LA FORMATION
  Retrouvez mes autres formations sur [LinkedIn Learning][lil-URL-trainer].
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com
+[lil-course-url]: https://www.linkedin.com/learning/l-essentiel-de-docker/
 [lil-thumbnail-url]: https:
 [lil-URL-trainer]: https://www.linkedin.com/learning/instructors/samir-lakhdari
 
